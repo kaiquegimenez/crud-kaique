@@ -67,5 +67,5 @@ server.delete('/produtos/:id', (req, res) => {
 })
 
 server.listen(port, () => {
-  console.info('Aplicação rodando em http://localhost:3000');
+  console.info(`Aplicação rodando em http://localhost:${port}`);
 });
